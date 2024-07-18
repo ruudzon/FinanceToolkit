@@ -36,6 +36,7 @@ class Discovery:
         discovery = Discovery(api_key="FINANCIAL_MODELING_PREP_KEY")
 
         stock_list = discovery.get_stock_list()
+            api_key (str): An API key from FinancialModelingPrep.
 
         # The total list equals over 60.000 rows
         stock_list.iloc[48000:48010]
