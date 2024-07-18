@@ -20,7 +20,6 @@ class Discovery:
 
     def __init__(
         self,
-        api_key: str | None = None,
     ):
         """
         Initializes the Discovery Controller Class.
